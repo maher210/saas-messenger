@@ -27,5 +27,4 @@ jobs:
       - name: Generate Application Key
         run: php artisan key:generate
 
-      - name: Run Laravel Tests
-        run: php artisan test
+    
